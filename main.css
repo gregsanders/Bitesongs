@@ -1,0 +1,155 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+	background: #FAF9F6;
+}
+
+h1
+{
+	margin: 4px;
+	padding: 10px;
+	font: normal 20pt Comic Sans MS, Verdana, Arial, Helvetica, sans-serif;
+	color: #8F1407;
+}
+
+h2
+{
+	margin: 4px;
+	padding: 10px;
+	font: normal 16pt Comic Sans MS, Verdana, Arial, Helvetica, sans-serif;
+	color: #8F1407;
+}
+
+table
+{
+	margin: 4px;
+	padding: 10px;
+	background-color: #E4F2E5;
+	background-color: #E4F2E5;
+	font: normal 11pt Arial,Helvetica,sans-serif;
+}
+
+table#songlist_tbl
+{
+	width=90%;
+}
+
+tr.tr_spacer
+{
+	line-height: 1px;
+}
+
+th 
+{
+	/* border: 1px solid black; */
+	padding: 10px;
+	font: bold 14pt Comic Sans MS, Verdana, Helvetica,sans-serif;
+	background-color: #E1E7E7;  /* #E6E1D0;  */
+	color: #021098;  /* #8F1407; */
+	text-align: center;
+}
+
+th.th_spacer
+{
+	line-height: 1px;
+}
+
+th.th_spacer_lyrics
+{
+	line-height: 1px;
+	background-color: #E4F4FA;
+}
+
+th.th_spacer_audio
+{
+	line-height: 1px;
+	background-color: #E0F0E5;
+}
+
+th.th_lyrics
+{
+	background-color: #E4F4FA;
+}
+
+th.th_audio
+{
+	font: normal 14pt Comic Sans MS, Verdana, Helvetica,sans-serif;
+	background-color: #E0F0E5;
+}
+
+th.th_subcat
+{
+	font: normal 12pt Comic Sans MS, Verdana, Helvetica,sans-serif;
+}
+
+th.th_subcat_audio
+{
+	border: 2px solid #F9FEFF;
+	font: normal 12pt Comic Sans MS, Verdana, Helvetica,sans-serif;
+	background-color: #E0F0E5;
+}
+
+td 
+{
+	margin: 4px;
+	padding: 10px;
+	background-color: #F5FFFA;   /* #F9F2D5; */
+	font: normal 11pt Arial,Helvetica,sans-serif;
+}
+
+div#logo_banner
+{
+	position: relative;
+    width:80%;
+    height:auto;
+	margin: 4px;
+	padding: 10px;
+	background-color: #0A0906;
+	/* background-color: #797FF5; (testing only) */
+	font: normal 11pt Comic Sans MS, Verdana, Arial, Helvetica, sans-serif;
+	color: #F3F1E9; 
+}
+
+div#logo
+{
+	/* position: relative; */
+	/* float: left; */
+	width: 400px;
+    height:auto;
+	margin: 3px;
+	padding: 6px;
+}
+
+div#logo_text
+{
+	width: 330px;
+	position: absolute; 
+	/* float: right; */
+    top: 3px;
+	left: 500px;
+	right: 10px;
+	margin: 3px;
+	padding: 6px;
+	background-color: #0A0906;
+	font: normal 9pt Comic Sans MS, Verdana, Arial, Helvetica, sans-serif;
+	color: #F5FFFA;   /* #F3F1E9; */
+}
+
+div#logo_attrib
+{
+	margin: 3px;
+	padding: 6px;
+	font: normal 8pt Comic Sans MS, Verdana, Arial, Helvetica, sans-serif;
+	color: #021098;
+}
+
+div#songlist_div
+{
+	width: 70%;
+	margin: 3px;
+	padding: 6px;
+	background-color: #F6FAF8;
+}
