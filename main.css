@@ -27,6 +27,7 @@ table
 {
 	margin: 4px;
 	padding: 10px;
+	border: 1px solid #E6E6E6;
 	background-color: #E4F2E5;
 	background-color: #E4F2E5;
 	font: normal 11pt Arial,Helvetica,sans-serif;
@@ -47,9 +48,19 @@ th
 	/* border: 1px solid black; */
 	padding: 10px;
 	font: bold 14pt Comic Sans MS, Verdana, Helvetica,sans-serif;
+	border: 1px solid #E6E6E6;
 	background-color: #E1E7E7;  /* #E6E1D0;  */
 	color: #021098;  /* #8F1407; */
 	text-align: center;
+}
+
+td 
+{
+	margin: 4px;
+	padding: 10px;
+	border: 1px solid #E6E6E6;
+	background-color: #F5FFFA;   /* #F9F2D5; */
+	font: normal 11pt Arial,Helvetica,sans-serif;
 }
 
 th.th_spacer
@@ -90,14 +101,6 @@ th.th_subcat_audio
 	border: 2px solid #F9FEFF;
 	font: normal 12pt Comic Sans MS, Verdana, Helvetica,sans-serif;
 	background-color: #E0F0E5;
-}
-
-td 
-{
-	margin: 4px;
-	padding: 10px;
-	background-color: #F5FFFA;   /* #F9F2D5; */
-	font: normal 11pt Arial,Helvetica,sans-serif;
 }
 
 div#logo_banner
