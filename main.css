@@ -61,7 +61,7 @@ tr.tr_spacer
 th 
 {
 	/* border: 1px solid black; */
-	padding: 10px;
+	padding: 14px;
 	font: bold 14pt Comic Sans MS, Verdana, Helvetica,sans-serif;
 	/* border: 1px solid #E6E6E6; */
 	background-color: #EEF0F0;  /* #E1E7E7;  /* #E6E1D0;  */
@@ -72,40 +72,50 @@ th
 td 
 {
 	margin: 4px;
-	padding: 10px;
+	padding: 14px;
 	border: 1px solid #E6E6E6;
 	background-color: #F5FFFA;   /* #F9F2D5; */
 	font: normal 11pt Arial,Helvetica,sans-serif;
 }
 
-th.th_spacer
+tr.tr_spacer
 {
 	line-height: 1px;
+	border: none;
+}
+
+th.th_song
+{
+	background-color: #171F1E;  /* #2D3A4B; */
+	color: #F4F4F4;
+}
+
+th.th_spacer
+{
+	background-color: #171F1E;
 	border: none;
 }
 
 th.th_spacer_lyrics
 {
-	line-height: 1px;
-	background-color: #E6F6F8;
+	background-color: #242C42;  /* #E6F6F8; */
 	border: none;
 }
 
 th.th_spacer_audio
 {
-	line-height: 1px;
-	background-color: #E7F7F1;
+	background-color: #2D3A4B;
 	border-right: none;
 	border-top: none;
 	border-bottom: none;
-	border-left: 1px solid #E6E6E6;
+	border-left: none;
 }
 
 th.th_lyrics
 {
 	border: none;
-	background-color: #E6F6F8;
-	color: #2D3C65;
+	background-color: #242C42;
+	color: #F4F4F4;   /* #2D3C65; */
 }
 
 th.th_audio
@@ -113,10 +123,10 @@ th.th_audio
 	border-right: none;
 	border-top: none;
 	border-bottom: none;
-	border-left: 1px solid #E6E6E6;
+	border-left: none;
 	/* border: 1px solid #E6E6E6;  border: none; */
-	background-color: #E7F7F1;
-	color: #2D3C65;
+	background-color: #2D3A4B;  /* #E7F7F1; */
+	color: #F4F4F4;
 }
 
 th.th_subcat
@@ -128,12 +138,26 @@ th.th_subcat
 
 th.th_subcat_audio
 {
-	border: 1px solid #E6E6E6;
+	border: 1px solid #4A5A64;
 	font: normal 12pt Comic Sans MS, Verdana, Helvetica,sans-serif;
-	background-color: #E7F7F1;
-	color: #2D3C65;
+	background-color: #2D3A4B;   /* #E7F7F1;  */
+	color: #F4F4F4;
 }
 
+td.songtitle
+{
+	background-color: #C6C6C6;
+}
+
+td.lyrics
+{
+	background-color: #CFD2D9;
+}
+
+td.audio
+{
+	background-color: #E2E2E6;
+}
 div#logo_banner
 {
 	position: relative;
